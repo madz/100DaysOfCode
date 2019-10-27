@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		944DD76523618570005E2719 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DD76423618570005E2719 /* main.swift */; };
 		944DD76E23618604005E2719 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DD76D23618604005E2719 /* Day6.swift */; };
+		949D38F123645DDD00AE6BFD /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D38F023645DDD00AE6BFD /* Day7.swift */; };
+		949D38F3236558F300AE6BFD /* Day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949D38F2236558F300AE6BFD /* Day8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		944DD76123618570005E2719 /* HundredDaysOfSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HundredDaysOfSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		944DD76423618570005E2719 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		944DD76D23618604005E2719 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
+		949D38F023645DDD00AE6BFD /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
+		949D38F2236558F300AE6BFD /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				944DD76423618570005E2719 /* main.swift */,
 				944DD76D23618604005E2719 /* Day6.swift */,
+				949D38F023645DDD00AE6BFD /* Day7.swift */,
+				949D38F2236558F300AE6BFD /* Day8.swift */,
 			);
 			path = HundredDaysOfSwift;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				944DD76523618570005E2719 /* main.swift in Sources */,
+				949D38F123645DDD00AE6BFD /* Day7.swift in Sources */,
 				944DD76E23618604005E2719 /* Day6.swift in Sources */,
+				949D38F3236558F300AE6BFD /* Day8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

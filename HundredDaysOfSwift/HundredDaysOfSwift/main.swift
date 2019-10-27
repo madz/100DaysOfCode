@@ -8,7 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
+//print("Hello, World!")
 
-let d6 = Day6()
-d6.showDay6()
+//let d6 = Day6()
+//d6.showDay6()
+
+//let d7 = Day7()
+//d7.showDay7()
+
+let d8 = Day8()
+d8.showDay8()
