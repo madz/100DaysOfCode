@@ -16,5 +16,8 @@ import Foundation
 //let d7 = Day7()
 //d7.showDay7()
 
-let d8 = Day8()
-d8.showDay8()
+//let d8 = Day8()
+//d8.showDay8()
+
+let d9 = Day9()
+d9.showDay9()
