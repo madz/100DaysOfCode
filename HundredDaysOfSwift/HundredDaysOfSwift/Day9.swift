@@ -67,6 +67,8 @@ class Day9 {
     }
     
     func showInitializer() {
+        print("----- showInitializer -----")
+        
         var user = User()
         print(user.username)
         user.username = "Mark"
@@ -74,17 +76,21 @@ class Day9 {
     }
     
     func showReferringCurrentInstance() {
+        print("----- showReferringCurrentInstance -----")
+        
         let person = Person(name: "Mark", id: "123")
         print(person.name)
     }
     
     func showLazyPropeties() {
+        print("----- showLazyPropeties -----")
         var ed = Person(name: "Ed", id: "456")
         
         print(ed.familyTree)
     }
     
     func showStaticPropetiesAndMethod() {
+        print("----- showStaticPropetiesAndMethod -----")
         let _ = Student(name: "Ed")
         let _ = Student(name: "Taylor")
         
@@ -92,6 +98,7 @@ class Day9 {
     }
     
     func showAccessControl() {
+        print("----- showAccessControl -----")
         let person = Person(name: "Mark", id: "123")
         print(person.identify())
     }
